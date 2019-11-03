@@ -1,0 +1,29 @@
+p.one {
+	background-color: #eee;
+	color:#666;
+	text-shadow: 1px 1px 0px #000;
+	/*первое значение указывает насколько далеко влево или вправо должна падать тень.
+	второе-на какое расстояние вверх или вниз должна смещаться тень.
+	третье-не обязательное,определеяет степень размытия, приминяемого к тени.
+	четвертое-цвет тени*/	
+}
+p.two {
+	background-color: #ddd;
+	color: #666;
+	text-shadow: 1px 1px 3px #666;
+}
+p.three {
+background-color: #ccc;
+color:#fff;
+text-shadow: 2px 2px 7px #111;
+}
+p.four {
+background-color: #bbb;
+color:#ccc;
+text-shadow:-1px -2px #666;
+}
+p.five {
+	background-color: #aaa;
+	color:#fff;
+	text-shadow:-1px -1px #666;
+}
