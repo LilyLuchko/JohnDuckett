@@ -1,0 +1,54 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: green;
+	letter-spacing: 0.2em;
+}
+#content {
+	overflow: auto;
+	height: 100%;
+}
+#nav, #feature, #footer {
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+#nav {
+	background-color: orange;
+}
+#footer {
+	background-color: yellowgreen;
+}
+.column1, .column2, .column3 {
+	background-color: #efefef;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	border-radius: 40px 10px 10px 10px;
+}
+.column1 {
+	background-color: red;
+}
+.column2 {
+	background-color: blue;
+}
+.column3 {
+	background-color: purple;
+}
+ul {
+	text-align: center;
+}
+li {
+	display: inline;
+	padding: 5px;
+
+}
+p {
+	padding: 10px;
+	text-align: center;
+}
